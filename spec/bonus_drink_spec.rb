@@ -15,6 +15,10 @@ describe BonusDrink do
     specify { expect(BonusDrink.total_count_for(11)).to eq 16 }
   end
 
+  context "100本" do
+    specify { expect(BonusDrink.total_count_for(100)).to eq 149 }
+  end
+
   context "5本" do
     specify { expect(BonusDrink.total_count_for(5)).to eq 7 }
   end
