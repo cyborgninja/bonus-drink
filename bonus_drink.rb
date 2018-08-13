@@ -6,7 +6,7 @@ class BonusDrink
     #   bonus = (bonus % 3) + (bonus / 3)
     # end
     # amount
-    amount + (amount-1).abs / 2
+    amount + amount.pred.abs / 2
   end
 
   begin
