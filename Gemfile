@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
-ruby "2.1.5"
+ruby "2.3.1"
 
-gem "rspec", "~> 2.14"
+gem "rspec"

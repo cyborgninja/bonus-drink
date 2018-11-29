@@ -21,6 +21,8 @@ class BonusDrink
     print "11,",  BonusDrink.total_count_for(11),"\n"
     print "73,",  BonusDrink.total_count_for(73),"\n"
     print "100,", BonusDrink.total_count_for(100),"\n"
+    print "1000,", BonusDrink.total_count_for(1000),"\n"
+    print "10000,", BonusDrink.total_count_for(10000),"\n"
   end
 
 end
